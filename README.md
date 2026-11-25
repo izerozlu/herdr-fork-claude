@@ -1,4 +1,6 @@
-# herdr-fork
+# herdr-claude-fork
+
+This repo was called `herdr-fork`. It is now `herdr-claude-fork`, because it works with Claude Code only. The plugin name (`herdr-fork`) and the `herdr-fork` command do not change, so you do not need to reinstall.
 
 A Claude Code plugin for [Herdr](https://herdr.dev). Type `/fork`, and the fork opens in a new Herdr pane, tab or workspace. A fork is a new agent that starts with a copy of the whole conversation so far.
 
@@ -23,7 +25,7 @@ In the desktop app, a workspace is a space, and a fork made with the `herdr-fork
 ## Install
 
 ```bash
-claude plugin marketplace add izerozlu/herdr-fork
+claude plugin marketplace add izerozlu/herdr-claude-fork
 claude plugin install herdr-fork@herdr-fork
 ```
 
